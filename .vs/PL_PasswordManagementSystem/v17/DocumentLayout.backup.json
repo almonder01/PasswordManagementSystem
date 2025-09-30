@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|f:\\coding\\my projects\\c#\\topublish\\passwordmanagementsystem\\pl_passwordmanagementsystem\\pl_passwordmanagementsystem\\frm_loginauthentication .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|solutionrelative:pl_passwordmanagementsystem\\frm_loginauthentication .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|f:\\coding\\my projects\\c#\\topublish\\passwordmanagementsystem\\pl_passwordmanagementsystem\\pl_passwordmanagementsystem\\frm_loginauthentication .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|solutionrelative:pl_passwordmanagementsystem\\frm_loginauthentication .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|f:\\coding\\my projects\\c#\\topublish\\passwordmanagementsystem\\pl_passwordmanagementsystem\\pl_passwordmanagementsystem\\frm_addeditpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|solutionrelative:pl_passwordmanagementsystem\\frm_addeditpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\pl_passwordmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|solutionrelative:pl_passwordmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|f:\\coding\\my projects\\c#\\topublish\\passwordmanagementsystem\\pl_passwordmanagementsystem\\pl_passwordmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B804B304-6EE5-4865-BF67-39FC3DC81717}|PL_PasswordManagementSystem\\PL_PasswordManagementSystem.csproj|solutionrelative:pl_passwordmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frm_AddEditPassword.cs [Design]",
+              "DocumentMoniker": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\frm_AddEditPassword.cs",
+              "RelativeDocumentMoniker": "PL_PasswordManagementSystem\\frm_AddEditPassword.cs",
+              "ToolTip": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\frm_AddEditPassword.cs [Design]",
+              "RelativeToolTip": "PL_PasswordManagementSystem\\frm_AddEditPassword.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T04:54:51.537Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frm_LoginAuthentication .cs",
+              "DocumentMoniker": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\frm_LoginAuthentication .cs",
+              "RelativeDocumentMoniker": "PL_PasswordManagementSystem\\frm_LoginAuthentication .cs",
+              "ToolTip": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\frm_LoginAuthentication .cs",
+              "RelativeToolTip": "PL_PasswordManagementSystem\\frm_LoginAuthentication .cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwG4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T04:51:47.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_LoginAuthentication .cs [Design]",
+              "DocumentMoniker": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\frm_LoginAuthentication .cs",
+              "RelativeDocumentMoniker": "PL_PasswordManagementSystem\\frm_LoginAuthentication .cs",
+              "ToolTip": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\frm_LoginAuthentication .cs [Design]",
+              "RelativeToolTip": "PL_PasswordManagementSystem\\frm_LoginAuthentication .cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T04:51:43.057Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "PL_PasswordManagementSystem\\Form1.cs",
+              "ToolTip": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\Form1.cs",
+              "RelativeToolTip": "PL_PasswordManagementSystem\\Form1.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAjwEcBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T07:12:05.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "PL_PasswordManagementSystem\\Form1.cs",
+              "ToolTip": "F:\\Coding\\My projects\\C#\\ToPublish\\PasswordManagementSystem\\PL_PasswordManagementSystem\\PL_PasswordManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "PL_PasswordManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T07:08:32.089Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
