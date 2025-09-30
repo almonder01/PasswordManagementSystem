@@ -46,14 +46,20 @@ This often leads to forgetting credentials or mixing them up.
 5. Add your first account, then start managing all your credentials from the dashboard.
 
 ---
-
 ## 📸 Screenshots
-<img width="326" height="214" alt="Register" src="https://github.com/user-attachments/assets/fc739f96-7ac1-4ffe-a9cd-a194bcb7113f" />
-<img width="587" height="284" alt="Types" src="https://github.com/user-attachments/assets/c1b9250c-4d7c-4e93-90ac-4a2e444039a7" />
-<img width="244" height="164" alt="Login" src="https://github.com/user-attachments/assets/ca8a266b-604b-4288-82a2-48bb0a616e0f" />
-<img width="587" height="284" alt="MainScreen" src="https://github.com/user-attachments/assets/fd0b87b5-a801-4f08-b119-bc48a54130ef" />
-<img width="587" height="284" alt="Edit" src="https://github.com/user-attachments/assets/3f861b52-d278-4d98-a26e-d9dfc7c4d959" />
-<img width="392" height="331" alt="AddAccount" src="https://github.com/user-attachments/assets/1ee57cd3-d371-494e-9a1e-a3dd764dd0c9" />
+
+| Register | Login |
+|----------|-------|
+| <img width="326" height="214" alt="Register" src="https://github.com/user-attachments/assets/fc3a06a3-d2c0-4925-b83a-f6a997b7a48e" /> | <img width="244" height="164" alt="Login" src="https://github.com/user-attachments/assets/caabcf0c-a1df-468b-9332-176c627357b8" /> |
+
+| Main Screen | Add Account |
+|-------------|-------------|
+| <img width="587" height="284" alt="MainScreen" src="https://github.com/user-attachments/assets/d791ce9b-772a-482d-9f8f-293ee9f566f9" /> | <img width="392" height="331" alt="AddAccount" src="https://github.com/user-attachments/assets/c30064f3-6db0-4f0d-b901-2ddd1c5aaa74" /> |
+
+| Types | Edit |
+|-------|------|
+| <img width="587" height="284" alt="Types" src="https://github.com/user-attachments/assets/4a1c75a1-a121-4ac4-9064-7d4e08d3f55b" /> | <img width="587" height="284" alt="Edit" src="https://github.com/user-attachments/assets/681598db-7b7e-4108-b8ab-58e17d259e33" /> |
+
 
 
 
