@@ -54,7 +54,7 @@ This often leads to forgetting credentials or mixing them up.
 
 | Main Screen | Add Account |
 |-------------|-------------|
-| <img width="587" height="284" alt="MainScreen" src="https://github.com/user-attachments/assets/d791ce9b-772a-482d-9f8f-293ee9f566f9" /> | <img width="392" height="331" alt="AddAccount" src="https://github.com/user-attachments/assets/c30064f3-6db0-4f0d-b901-2ddd1c5aaa74" /> |
+| <img width="587" height="284" alt="MainScreen" src="https://github.com/user-attachments/assets/d791ce9b-772a-482d-9f8f-293ee9f566f9" /> | <img width="784" height="661" alt="Screenshot 2025-10-02 002316" src="https://github.com/user-attachments/assets/238a0f7b-30cb-44b1-83d6-f803835cadaa" /> |
 
 | Types | Edit |
 |-------|------|
