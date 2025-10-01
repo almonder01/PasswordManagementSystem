@@ -281,14 +281,14 @@ namespace PL_PasswordManagementSystem
             if (_AccountID != -1)
             {
                 l_AccountID.Text = _AccountID.ToString();
-                this.Text = "Add Account";
+                this.Text = "Edit Account";
                 _EditGetLastParameters();
             }
                
             else
             {
                 l_AccountID.Text = "---";
-                this.Text = "Edit Account";
+                this.Text = "Add Account";
            
             }
             _RefreshServiceType();
