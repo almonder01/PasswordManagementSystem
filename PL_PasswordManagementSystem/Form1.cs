@@ -54,27 +54,33 @@ namespace PL_PasswordManagementSystem
             }
         }
 
-        private void _RefreshCategoryType()
-        {
-            cb_CategoryType.Items.Clear();
-            foreach (DataRow Row in clsLogicCategory.GetListCategory().Rows)
-            {
-                cb_CategoryType.Items.Add(Row["CategoryName"]);
-            }
+       private void _RefreshCategoryType()
+ {
 
-            if (cb_CategoryType.Items.Count > 0)
-                cb_CategoryType.SelectedIndex = 0;
-        }
-        private void _RefreshServiceType() 
-        {
-            cb_ServiceType.Items.Clear();
-            foreach(DataRow row in clsLogicService.GetListService().Rows)
-            {
-                cb_ServiceType.Items.Add(row["ServiceName"]);
-            }
-            if (cb_ServiceType.Items.Count > 0)
-                cb_ServiceType.SelectedIndex = 0;
-        }
+     if (cb_Categories == null)
+         return;
+
+     cb_Categories.Items.Clear();
+
+     DataTable Categories = clsLogicCategory.GetListCategory();
+     if (Categories == null || Categories.Rows.Count == 0)
+         return;
+
+     foreach (DataRow Row in Categories.Rows)
+     {
+         cb_Categories.Items.Add(Row["CategoryName"]);
+     }
+     clsLogicRelAccountCategory relAccountCategory = clsLogicRelAccountCategory.Find(_AccountID);
+     if (relAccountCategory != null && cb_Categories.Items.Count > 0)
+     {
+         if (cb_Categories.Items.Contains(relAccountCategory.CategoryName))
+             cb_Categories.SelectedItem = relAccountCategory.CategoryName;
+     }
+     else if(cb_Categories.Items.Count > 0)
+     {
+         cb_Categories.SelectedItem = 0;
+     }
+ }
 
 
         private void _OpenRegisterForm()
