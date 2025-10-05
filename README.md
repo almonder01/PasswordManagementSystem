@@ -72,6 +72,15 @@ This often leads to forgetting credentials or mixing them up.
         static string createDBQuery
         ```
      3. Replace `PasswordsDB` with your preferred database name.
+     4. Go to:
+        
+     ```
+     DL_PasswordManagementSystem/clsDBSettings.cs
+     ```
+     5. Replace `PasswordsDB` with your preferred database name on:
+        ```
+        ConnectionString = *.. Database = "Your New Database name; *..".
+        ```
 
 5. **Build and run** the application in Visual Studio.
 
