@@ -54,33 +54,44 @@ namespace PL_PasswordManagementSystem
             }
         }
 
-       private void _RefreshCategoryType()
- {
+        private void _RefreshCategoryType()
+        {
+            if (cb_CategoryType == null)
+                return;
 
-     if (cb_Categories == null)
-         return;
+            cb_CategoryType.Items.Clear();
 
-     cb_Categories.Items.Clear();
+            DataTable Categories = clsLogicCategory.GetListCategory();
+            if (Categories == null || Categories.Rows.Count == 0)
+                return;
 
-     DataTable Categories = clsLogicCategory.GetListCategory();
-     if (Categories == null || Categories.Rows.Count == 0)
-         return;
+            foreach (DataRow Row in Categories.Rows)
+            {
+                cb_CategoryType.Items.Add(Row["CategoryName"]);
+            }
 
-     foreach (DataRow Row in Categories.Rows)
-     {
-         cb_Categories.Items.Add(Row["CategoryName"]);
-     }
-     clsLogicRelAccountCategory relAccountCategory = clsLogicRelAccountCategory.Find(_AccountID);
-     if (relAccountCategory != null && cb_Categories.Items.Count > 0)
-     {
-         if (cb_Categories.Items.Contains(relAccountCategory.CategoryName))
-             cb_Categories.SelectedItem = relAccountCategory.CategoryName;
-     }
-     else if(cb_Categories.Items.Count > 0)
-     {
-         cb_Categories.SelectedItem = 0;
-     }
- }
+            if (cb_CategoryType.Items.Count > 0)
+                cb_CategoryType.SelectedIndex = 0;
+        }
+        private void _RefreshServiceType()
+        {
+            if (cb_ServiceType == null)
+                return;
+
+            cb_ServiceType.Items.Clear();
+
+            DataTable Services = clsLogicService.GetListService();
+            if (Services == null || Services.Rows.Count == 0)
+                return;
+
+            foreach (DataRow row in Services.Rows)
+            {
+                cb_ServiceType.Items.Add(row["ServiceName"]);
+            }
+            if (cb_ServiceType.Items.Count > 0)
+                cb_ServiceType.SelectedIndex = 0;
+        }
+      
 
 
         private void _OpenRegisterForm()
