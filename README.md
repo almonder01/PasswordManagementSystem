@@ -42,7 +42,7 @@ This often leads to forgetting credentials or mixing them up.
    ```
 2. Open the project in **Visual Studio**.
 3. Go to DL_PasswordManagementSystem/clsDBSettings.cs.
-4. Change: User Id="Write Your SQL User"; Password="Write your SQL PAssword" on **ConnectionString** and **masterConnectionString**.
+4. Change: User Id="Write Your SQL User"; Password="Write your SQL Password" on **ConnectionString** and **masterConnectionString**.
 5. Build and run the application.
 6. On first launch, the system will create an empty database automatically.
 7. Add your first account, then start managing all your credentials from the dashboard.
