@@ -35,17 +35,49 @@ This often leads to forgetting credentials or mixing them up.
 
 ## 📥 Installation & Usage
 
-1. Clone the repository:
+1. **Clone the repository**
 
    ```bash
    git clone https://github.com/almonder01/PasswordManagementSystem.git
    ```
-2. Open the project in **Visual Studio**.
-3. Go to DL_PasswordManagementSystem/clsDBSettings.cs.
-4. Change: User Id="Write Your SQL User"; Password="Write your SQL Password" on **ConnectionString** and **masterConnectionString**.
-5. Build and run the application.
-6. On first launch, the system will create an empty database automatically.
-7. Add your first account, then start managing all your credentials from the dashboard.
+
+2. **Open the project** in **Visual Studio**.
+
+3. **Configure the database connection**
+
+   * Go to:
+
+     ```
+     DL_PasswordManagementSystem/clsDBSettings.cs
+     ```
+   * Update both **ConnectionString** and **masterConnectionString** with your SQL Server:
+
+     ```csharp
+     User Id="Your_SQL_Username"; Password="Your_SQL_Password";
+     ```
+
+4. **(Optional) Change the database name**
+
+   * By default, the system creates a database named **PasswordsDB**.
+   * If you already have a database with the same name, you can rename it:
+
+     1. Go to:
+
+        ```
+        DL_PasswordManagementSystem/clsDBInitializer.cs
+        ```
+     2. Find:
+
+        ```csharp
+        static string createDBQuery
+        ```
+     3. Replace `PasswordsDB` with your preferred database name.
+
+5. **Build and run** the application in Visual Studio.
+
+6. On the **first launch**, the system will automatically create an empty database.
+
+7. **Add your first account**, then start managing all your passwords.
 
 ---
 ## 📸 Screenshots
