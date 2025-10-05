@@ -9,9 +9,9 @@ namespace DL_PasswordManagementSystem
 {
     internal static class clsDBSettings
     {
-       public static string ConnectionString = "Server=.; Database=PasswordsDB; User Id=sa; Password=77MoNdEr200!;";
+       public static string ConnectionString = "Server=.; Database=PasswordsDB; User Id=sa; Password=0000;";
 
-       public static string masterConnectionString = "Server=.;Database=master;User Id=sa;Password=77MoNdEr200!;";
+       public static string masterConnectionString = "Server=.;Database=master;User Id=sa;Password=0000;";
 
     }
 }
