@@ -29,30 +29,47 @@ namespace PL_PasswordManagementSystem
 
         private void _RefreshCategoryType()
         {
-            cb_Categories.Items.Clear();
-            foreach (DataRow Row in clsLogicCategory.GetListCategory().Rows)
-            {
-                cb_Categories.Items.Add(Row["CategoryName"]);
-            }
-            clsLogicRelAccountCategory relAccountCategory = clsLogicRelAccountCategory.Find(_AccountID);
-            if (relAccountCategory != null && cb_Categories.Items.Count > 0)
-            {
-                if (cb_Categories.Items.Contains(relAccountCategory.CategoryName))
-                    cb_Categories.SelectedItem = relAccountCategory.CategoryName;
-            }
-            else if(cb_Categories.Items.Count > 0)
-            {
-                cb_Categories.SelectedItem = 0;
-            }
+
+         if (cb_Categories == null)
+             return;
+
+         cb_Categories.Items.Clear();
+
+         DataTable Categories = clsLogicCategory.GetListCategory();
+         if (Categories == null || Categories.Rows.Count == 0)
+             return;
+
+         foreach (DataRow Row in Categories.Rows)
+         {
+             cb_Categories.Items.Add(Row["CategoryName"]);
+         }
+         clsLogicRelAccountCategory relAccountCategory = clsLogicRelAccountCategory.Find(_AccountID);
+         if (relAccountCategory != null && cb_Categories.Items.Count > 0)
+         {
+             if (cb_Categories.Items.Contains(relAccountCategory.CategoryName))
+                 cb_Categories.SelectedItem = relAccountCategory.CategoryName;
+         }
+         else if(cb_Categories.Items.Count > 0)
+         {
+             cb_Categories.SelectedItem = 0;
+         }
         }
         private void _RefreshServiceType()
         {
-            lb_AllServices.Items.Clear();
-            lb_AllServices.DisplayMember = "ServiceName";
-            foreach (DataRow row in clsLogicService.GetListService().Rows)
-            {
-                lb_AllServices.Items.Add(new clsLogicService { ServiceID = Convert.ToInt32(row["ServiceID"]), ServiceName = row["ServiceName"].ToString(), Url = row["Url"].ToString() });
-            }
+         if (lb_AllServices == null)
+             return;
+
+         lb_AllServices.Items.Clear();
+
+         DataTable Services = clsLogicService.GetListService();
+         if (Services == null || Services.Rows.Count == 0)
+             return;
+
+         lb_AllServices.DisplayMember = "ServiceName";
+         foreach (DataRow row in Services.Rows)
+         {
+             lb_AllServices.Items.Add(new clsLogicService { ServiceID = Convert.ToInt32(row["ServiceID"]), ServiceName = row["ServiceName"].ToString(), Url = row["Url"].ToString() });
+         }
         }
         private int _AddNewCategory()
         {
