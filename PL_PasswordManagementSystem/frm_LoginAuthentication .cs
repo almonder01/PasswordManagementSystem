@@ -55,8 +55,14 @@ namespace PL_PasswordManagementSystem
       
         private void b_Login_Click(object sender, EventArgs e)
         {
+        
             if (!isForgetPassword)
             {
+                if (string.IsNullOrEmpty(tb_Username.Text.Trim()) || string.IsNullOrEmpty(tb_Password.Text.Trim()))
+                {
+                    MessageBox.Show("User name or password is empty.");
+                    return;
+                }
                 if (_CheckExistAccount())
                 {
                     _DidLoggedSuccessfully = true;
